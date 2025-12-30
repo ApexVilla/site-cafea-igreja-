@@ -2,7 +2,7 @@
 import { Church, Event, MediaItem, NavItem, Testimonial } from './types';
 
 import imgAbraao from './image/Bispo Abraão do conselho.jpeg';
-import imgAilton from './image/Pastor Ailton.jpeg';
+import imgHaylton from './image/Pastor Haylton.jpeg';
 import imgCelso from './image/Pastor Celso.jpeg';
 import imgGil from './image/Pastor Gil.jpeg';
 import imgInaldo from './image/inaldo_silva.png';
@@ -35,13 +35,13 @@ export const NAV_ITEMS: NavItem[] = [
 export const CHURCHES: Church[] = [
   {
     id: 'sede-sp',
-    name: 'Cafeia Sede', // Adjusted name slightly as it seems to be the main HQ now in Realengo? Keeping ID 'sede-sp' but updating details.
+    name: 'Cafea Sede', // Adjusted name slightly as it seems to be the main HQ now in Realengo? Keeping ID 'sede-sp' but updating details.
     city: 'Rio de Janeiro', // Realengo is in RJ
     state: 'RJ',
     address: 'Estrada de Gericinó 860 Bangu CEP 21 853-000',
     banner: imgSedeCover,
     whatsapp: '5521987974780',
-    instagram: '@cafeiasede',
+    instagram: '@cafeasede',
     facebook: 'bispo Osvaldo',
     tiktok: 'bispo Osvaldo',
     kwai: 'bispo Osvaldo',
@@ -53,10 +53,10 @@ export const CHURCHES: Church[] = [
         image: imgAbraao
       },
       {
-        name: 'Pastor Ailton',
+        name: 'Pastor Haylton',
         role: 'Pastor Titular',
         bio: 'Dedicado ao ensino e pastoreio.',
-        image: imgAilton
+        image: imgHaylton
       },
       {
         name: 'Pastor Celso',
@@ -140,10 +140,10 @@ export const CHURCHES: Church[] = [
     instagram: '@adultimapalavra',
     pastors: [
       {
-        name: 'Pastor Ailton',
+        name: 'Pastor Haylton',
         role: 'Pastor Presidente',
         bio: 'Só Jesus Cristo: Liberta, Cura e Dá a Salvação.',
-        image: imgAilton
+        image: imgHaylton
       }
     ],
     schedule: [

@@ -1,7 +1,6 @@
-
 {
-  "name": "Convenção Cafeia - Igreja e Comunhão",
-  "description": "Um site institucional moderno e acolhedor focado em conversão para a igreja Convenção Cafeia, unindo fé, diálogo e o simbolismo do café.",
+  "name": "Convenção Cafea - Igreja e Comunhão",
+  "description": "Um site institucional moderno e acolhedor focado em conversão para a igreja Convenção Cafea, unindo fé, diálogo e o simbolismo do café.",
   "requestFramePermissions": [
     "geolocation"
   ]
