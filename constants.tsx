@@ -22,6 +22,10 @@ import imgDeusProveraLogo from "./image/deus_provera_logo.jpg";
 import imgPastorAlonso from "./image/pastor_alonso_farias.png";
 import imgBispoHudson from "./image/bispo_hudsom.jpg";
 import imgPastorAlianca from './image/pastor_alianca_final.png';
+import imgFeedCafeaGroup from './image/feed_cafea_group.png';
+import imgFeedCafeaGroupRed from './image/feed_cafea_group_red.jpg';
+import imgFeedCommunion from './image/feed_cafea_communion.png';
+import imgUltimaPalavraV2 from "./image/ultima_palavra_cover_v2.png";
 
 
 export const NAV_ITEMS: NavItem[] = [
@@ -135,7 +139,7 @@ export const CHURCHES: Church[] = [
     city: 'Rio de Janeiro', // Presumed based on context
     state: 'RJ',
     address: 'Endereço a confirmar',
-    banner: imgUltimaPalavra,
+    banner: imgUltimaPalavraV2,
     whatsapp: '5500000000000',
     instagram: '@adultimapalavra',
     pastors: [
@@ -274,6 +278,30 @@ export const CHURCHES: Church[] = [
       { day: 'Quinta', time: '19h30', label: 'Culto de Vitória' },
       { day: 'Domingo', time: '19h', label: 'Culto da Família' }
     ]
+  },
+  {
+    id: 'ad-profetizando-no-vale',
+    name: 'Assembleia de Deus Ministério Profetizando no Vale',
+    city: 'Rio de Janeiro',
+    state: 'RJ',
+    address: 'Endereço a confirmar',
+    banner: imgSedeCover, // Placeholder
+    bannerFit: 'cover',
+    whatsapp: '5500000000000',
+    instagram: '',
+    pastors: [
+      {
+        name: 'Pastor Hamilton Ferreira',
+        role: 'Pastor Presidente',
+        bio: 'Vivendo as promessas de Deus.',
+        image: imgAbraao // Placeholder
+      }
+    ],
+    schedule: [
+      { day: 'Terça', time: '19h30', label: 'Culto de Doutrina' },
+      { day: 'Quinta', time: '19h30', label: 'Culto de Vitória' },
+      { day: 'Domingo', time: '19h', label: 'Culto da Família' }
+    ]
   }
 ];
 
@@ -286,10 +314,12 @@ export const EVENTS: Event[] = [
 export const MEDIA_FEED: MediaItem[] = [
   { id: 1, type: 'image', url: 'https://images.unsplash.com/photo-1438232992991-995b7058bbb3?auto=format&fit=crop&w=500&q=80', churchName: 'Sede SP', caption: 'Culto de domingo abençoado!' },
   { id: 2, type: 'image', url: 'https://images.unsplash.com/photo-1510511233900-1982d92bd835?auto=format&fit=crop&w=500&q=80', churchName: 'Curitiba', caption: 'Momento de comunhão na mesa.' },
-  { id: 3, type: 'image', url: 'https://images.unsplash.com/photo-1548625361-195fe57d5509?auto=format&fit=crop&w=500&q=80', churchName: 'RJ', caption: 'Nossa nova casa no Rio.' },
+  { id: 3, type: 'image', url: imgFeedCommunion, churchName: 'RJ', caption: 'Santa Ceia do Senhor.' },
   { id: 4, type: 'image', url: 'https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=500&q=80', churchName: 'Convenção', caption: 'O aroma do recomeço.' },
   { id: 5, type: 'image', url: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=80', churchName: 'Sede SP', caption: 'Liderança reunida.' },
   { id: 6, type: 'image', url: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=500&q=80', churchName: 'Mídias', caption: 'Treinamento de som e imagem.' },
+  { id: 7, type: 'image', url: imgFeedCafeaGroup, churchName: 'Convenção', caption: 'Grupo reunido em comunhão.' },
+  { id: 8, type: 'image', url: imgFeedCafeaGroupRed, churchName: 'Eventos', caption: 'União e fé nas festividades.' },
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
